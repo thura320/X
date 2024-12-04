@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from gateway import Tele
 from utils import cardResponseFilter, ccnMsg, cvvMsg, editMssg
 
-token = "6657794620:AAF5POzqPoqdeclnaQlv1QWtRQha0V6liPM"
+token = "8194728076:AAGg8QBV7S2TPGUoJzc18_bZEU_9HuPeOac"
 bot = telebot.TeleBot(token, parse_mode="HTML")
 subscriber = [
     "6473717870",  # Your admin or authorized user IDs
